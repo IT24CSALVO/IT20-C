@@ -10,7 +10,15 @@ public class Main {
 	       
 	       Stack stack = new Stack();
 
-	       System.out.println("Hello there!");
+	       System.out.println("Hello!");
+	       while(true) {
+	           System.out.println("Choose what you want to do: "
+	                    + " 1. Size"
+	                    + " 2. Push"
+	                    + " 3. Pop"
+	                   +  " 4. Exit");
+	            int choice = sc.nextInt();
 	      
+}
 }
 }
