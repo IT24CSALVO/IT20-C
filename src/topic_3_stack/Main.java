@@ -24,7 +24,9 @@ public class Main {
                     System.out.println("~~~~~~~~~~~~~~~~~~");
                     break;
 	            case 2:
-	            	
+	            	 System.out.println("Add a number: ");
+                     int num = sc.nextInt();
+                     System.out.println("Pushed value: " + num);
 }
 }
 }
