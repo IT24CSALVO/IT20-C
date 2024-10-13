@@ -35,6 +35,9 @@ public class Main {
 	            case 3:
 	            	if(!stack.isEmpty()) {
 	            		System.out.println("Top element: " + stack.peek());
+	            		 System.out.println("Popped element: " + stack.pop());
+	                     stack.size();
+	                     break;  
 	            	}
 }
 }
