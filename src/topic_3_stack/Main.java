@@ -34,12 +34,23 @@ public class Main {
                      
 	            case 3:
 	            	if(!stack.isEmpty()) {
-	            		System.out.println("Top element: " + stack.peek());
-	            		 System.out.println("Popped element: " + stack.pop());
-	                     stack.size();
-	                     break;  
-	            	}
-}
-}
-}
-}
+	            	System.out.println("Top element: " + stack.peek());
+	            	System.out.println("Popped element: " + stack.pop());
+	                stack.size();
+	                break; 
+	                     
+	            case 4:
+	                  System.out.println("Thank you!!");
+	                  System.exit(0);
+	                   break;
+	                    	 
+	            
+	            	
+	            
+	       }
+	 }
+
+	            	
+
+	       }
+	 
