@@ -38,19 +38,20 @@ public class Main {
 	            	System.out.println("Popped element: " + stack.pop());
 	                stack.size();
 	                break; 
-	                     
+	            	} 
 	            case 4:
 	                  System.out.println("Thank you!!");
 	                  System.exit(0);
 	                   break;
 	                    	 
-	            
+	            default:
+	            	
+	            	 System.out.println("Error, Choose another.");
 	            	
 	            
-	       }
+	            	}
+	            	
+	            }
+	       
 	 }
-
-	            	
-
-	       }
-	 
+}
