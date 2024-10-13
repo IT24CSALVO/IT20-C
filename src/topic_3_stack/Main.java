@@ -31,6 +31,9 @@ public class Main {
                      stack.size();
                      System.out.println("~~~~~~~~~~~~~~~~~~");
                      break; 
+                     
+	            case 3:
+	            	
 }
 }
 }
