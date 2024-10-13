@@ -33,7 +33,9 @@ public class Main {
                      break; 
                      
 	            case 3:
-	            	
+	            	if(!stack.isEmpty()) {
+	            		System.out.println("Top element: " + stack.peek());
+	            	}
 }
 }
 }
